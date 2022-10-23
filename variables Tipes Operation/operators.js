@@ -39,7 +39,7 @@ console.log(d);
 
 
 
-var p = false;
+/*var p = false;
 var q = false;
 console.log(p && q);
 console.log(p || q);
@@ -52,17 +52,25 @@ console.log(age >120);
 console.log(age<0); */
 
 
-var a = 60;
-var b = 120;
+/*var a = true;
+var b = false;
 
 
-console.log(a >=60 && b <= 120);
-
-
-
+console.log(a && b );*/
 
 
 
+/*var speed = 80;
+var allowedspeed =speed >60 && speed <120 ;
+console.log (allowedspeed);
+*/
+ /*var age = 35;
+ console.log(age<0);
 
 
+console.log(age>120);*/
 
+
+/*var speed = 150;
+var regularspeed = speed >=60 && speed <=120;
+console.log (regularspeed);*/

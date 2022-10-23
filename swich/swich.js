@@ -211,7 +211,42 @@ case "f":
 
  
 
+var city = "Milano";
+var result = " ";
+switch(city) {
+    case "Belgrade":
+    case "Novi Pazar":
+    case "Novi Sad":
+    case "Kraljevo":
+    result = "Serbia";
+    break ;
+    case "Sarajevo":
+    case "Banjaluka":
+    case "Zenica":
+    result= "Bosnia and Hercegovina";
+    break ;
+    case "Istanbul":
+    case "Ankara":
+    case "Izmir":
+    result = "Turkey";
+    break;
+    case "Berlin":
+    case "Dortmund":
+    case "Munschen":
+    result = "Deutschland";
+    break;
+    case "Rome":
+    case "Bolognja":
+    case "Torino":
+    case "Milano":
+    result = "Italia";
 
+    break;
+
+    default:
+        result = "choose a different city"
+}
+console.log(result);
 
 
 
