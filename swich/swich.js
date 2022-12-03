@@ -209,7 +209,11 @@ case "f":
  console.log (result);*/
 
 
- 
+ /*7. Write a program that takes as input a city name and outputs the country where the city is.
+You may choose which cities and countries you want to output yourself, however there has
+to be at least 5 countries and 15 cities. Note that each country must have a different
+number of cities. Input different from the listed cities should output a message&quot;Please
+choose a different city&quot;.
 
 var city = "Milano";
 var result = " ";
@@ -246,7 +250,35 @@ switch(city) {
     default:
         result = "choose a different city"
 }
-console.log(result);
+console.log(result);*/
+
+
+/*8. Write a program that takes as input two numbers and a string denoting the operation (“+”, “-
+    ”, “*”, “/”) and prints out the appropriate result. Watch out for division by zero!*/
+
+    var a = 6;
+    var b = 3;
+    var c = "*";
+    switch (c){
+        case "+":
+            c = a+b ;
+            break;
+        case "-":
+            c = a-b;
+            break;
+        case "*":
+            c = a*b ;
+            break;
+        case "/":
+            c = a/b ;
+            break;
+        default:
+            c = "is not a number";
+            
+
+
+    }
+    console.log (c);
 
 
 
