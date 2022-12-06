@@ -193,7 +193,7 @@ console.log ("true")
 /*Task 10. Write a JavaScript program to check a given integer is within 20 of 100 or 400,
 and print range in which number belongs.
 Sample Input: 13 Sample Input: 34 Sample Input: 256
-Output : - Output : 20 ⇔ 100 Output : 100 ⇔ 400*/
+Output : - Output : 20 ⇔ 100 Output : 100 ⇔ 400
 
 var a = 13;
 var b = 34;
@@ -227,7 +227,8 @@ else if (c >= 100 && c <= 400){
 }
 else {
     console.log ("-")
-}
+}*/
+
 
 
 

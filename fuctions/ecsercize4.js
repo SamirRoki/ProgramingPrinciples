@@ -79,7 +79,39 @@ Output: 16*/
 }
 console.log(sumPositiveElements([3, 11, -5, -3, 2]));*/
 
-6. Write a program that checks if a given array is symmetric. An array is symmetric if it can
+/*6. Write a program that checks if a given array is symmetric. An array is symmetric if it can
 be read the same way both from the left and the right hand side.
 Input array: [2, 4, -2, 7, -2, 4, 2]
-Output: The array is symmetric.
+Output: The array is symmetric.*/
+
+function isSymetric(array) {
+    var answer = "The array is symetric" ;
+    for (var i = 0; i < array.length; i++) {
+        if (array[i] !== array[array.length - 1]-i ) {
+            answer = "The array isn't symetric";
+        }
+        break;
+    }
+    return answer;
+}
+
+//console.log(isSymetric ([2, 4, -2, 7, -2, 4, 2]));
+
+//console.log(isSymetric ([3, 4, 12, 8]));
+
+
+/*7. Write a program that intertwines two arrays. You can assume the arrays are of the same
+length.
+Input arrays: [4, 5, 6, 2], [3, 8, 11, 9]
+Output array: [4, 3, 5, 8, 6, 11, 2, 9]*/
+
+function intertwineArrays(ar1, ar2) {
+    var ar3 = [];
+    for (var i = 0; i < ar1.length; i++) {
+        ar3[ar3.length] = ar1[i];
+        ar3[ar3.length] = ar2[i]
+    }
+    return ar3;
+}
+
+console.log(intertwineArrays([4, 5, 6, 2], [3, 8, 11, 9]));
