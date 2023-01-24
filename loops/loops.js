@@ -17,7 +17,7 @@ for (x; x <= 15; x++){
         console.log(x, "The number is odd");
     }
 } */
-/* Task 2:  Write a program to sum the multiples of 3 and 5 under 1000.
+// Task 2:  Write a program to sum the multiples of 3 and 5 under 1000.
 
 var sum = 0;
 for (var x = 0; x < 1000; x++){
@@ -26,7 +26,7 @@ for (var x = 0; x < 1000; x++){
    }
     }
 console.log(sum);
-*/
+
 /*Task 3: Write a program to compute the sum and product of an array of integers.
 
 var result = 0;
