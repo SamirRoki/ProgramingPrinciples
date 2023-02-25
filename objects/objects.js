@@ -26,7 +26,6 @@ var exercise3 = function () {
         description: 'BIT-PP',
         language: 'JavaScript',
         repository: 'gitHub',
-
         statusOfProject: true
     }
     console.log(project.repository);
